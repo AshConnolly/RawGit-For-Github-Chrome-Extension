@@ -1,0 +1,54 @@
+body {
+    width: 200px;
+    font-family: Tahoma, Geneva, sans-serif;
+    line-height: 1.1;
+    font-size: 14px;
+    padding:18px;
+	margin:0;
+}
+
+
+/*----------- header -------------*/
+header {overflow:auto; 
+}
+h1 {margin:0 0 10px; font-size: 26px; padding-left: 17px;}
+header h1 img {width:50px; height: auto; }
+
+hr {height:1px; background:#cccccc; margin: 0 0 20px;
+ border:none;
+    }
+
+/*----------- buttons and p's -------------*/
+button,p {
+    margin: 20px 0;
+    font-size: 14px;
+}
+button {margin: 20px 0;}
+button {margin-bottom: 0;outline:none;}
+a, p a,a:visited, p a:visited {color:#F1792E;text-decoration: none;}
+
+button {
+    text-align: center;
+    width: 45%;
+    padding: 10px 0;
+    box-shadow: none;
+    background:white;
+    border: 1px solid #F1792E;
+    color: #F1792E;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button + button {margin-left: 5%;}
+
+button:hover {
+	background:#F1792E;
+    border: 1px solid #F1792E;
+    color: white;
+}
+
+/*----------- bottom link -------------*/
+.site_link {text-align: center; display: block;}
+.site_link img {vertical-align: middle;}
+.site_link span {
+    color:#cccccc;
+    vertical-align: middle;}
